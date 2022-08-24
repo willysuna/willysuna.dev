@@ -1,15 +1,12 @@
 <html>
     <head>
         <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-	    <link rel="icon" href="https://avatars.githubusercontent.com/u/78625911">
+	<link rel="icon" href="https://avatars.githubusercontent.com/u/78625911">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <center><div id="clockbox"></div></center>
-        <script>
+	    <script>
             console.log('Thanks for visiting', location.hostname, ':3');
             document.title = 'willysuna.dev';
             var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -38,9 +35,27 @@
             }
 
             GetClock();
-            setInterval(GetClock,1000);
-        </script>
-        <center>
+          setInterval(GetClock,1000);
+	</script>
+        <style>
+               .body {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -moz-transform: translate(-50%, -50%); /* Firefox */
+                -ms-transform: translate(-50%, -50%);  /* IE 9 */
+                -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+                -o-transform: translate(-50%, -50%); /* Opera */
+                transform: translate(-50%, -50%);
+
+                /* optional size in px or %: */
+                width: 100px;
+                height: 100px;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="clockbox"></div>
             <h1>Hello! I'm William</h1>
             <img src="https://avatars.githubusercontent.com/u/78625911">
             <h2>
@@ -51,6 +66,5 @@
             <a href="https://discord.gg/WWq8P6uPyR">discord</a>
             <a href="https://twitch.tv/willysuna">twitch</a>
             <a href="https://youtube.com/c/willysuna">youtube</a>
-        </center>
     </body>
 </html>
