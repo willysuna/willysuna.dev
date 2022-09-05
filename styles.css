@@ -4,4 +4,8 @@ body {
     color:white;
 	font-size: 25px;
 	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
