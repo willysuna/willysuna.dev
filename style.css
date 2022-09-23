@@ -1,0 +1,39 @@
+body {
+    background-color: #23272A;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    text-align: center;;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;;
+}
+
+.imgcirc img{
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #2C2F33;
+    font-size: 30px;
+}
+
+a {
+    font-size: 25px;
+    color: #404EED;
+}
+
+.part2 {
+    background-color: #2C2F33;
+}
+
+.project {
+    background-color: #1c1e20;
+}
