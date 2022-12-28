@@ -25,7 +25,8 @@ h1, h2 {
     display: inline;
 }
 
-p{
+p {
+    font-family: InterRegular;
     font-size: 90%;
 }
 
