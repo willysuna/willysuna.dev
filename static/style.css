@@ -5,20 +5,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: white;
-    font-family: InterRegular;
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
     font-size:4vw;
-    font-family: InterBold;
-}
-
-h2 {
-    font-family: InterSemiBold;
-}
-
-h3 {
-    font-family: InterRegular;
 }
 
 h1, h2 {
@@ -75,18 +66,4 @@ a:hover {
 
 /* FONT SETUP */
 
-
-@font-face {
-    font-family: InterRegular;
-    src: url("https://willysuna.dev/assets/Inter-Regular.ttf");
-}
-
-@font-face {
-    font-family: InterSemiBold;
-    src: url("https://willysuna.dev/assets/Inter-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: InterBold;
-    src: url("https://willysuna.dev/assets/Inter-Bold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
