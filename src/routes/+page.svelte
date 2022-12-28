@@ -1,6 +1,5 @@
 <head>
     <title>William</title>
-    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/willysuna/willysuna.dev/main/src/style.css" >
     <script src="https://kit.fontawesome.com/057b0dec9d.js" crossorigin="anonymous"></script>
 </head>
 
