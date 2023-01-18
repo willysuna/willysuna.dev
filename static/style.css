@@ -1,51 +1,38 @@
-body {
-    background: url("https://willysuna.s-ul.eu/dRZU270i") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    font-family: 'Inter', sans-serif;
+:root {
+    --primary: #5351d6;
+    --primary-hover: #5465eb;
+    --primary-focus: rgba(46, 41, 210, 0.125)
+    --primary-inverse: #FFF;
 }
 
-h1 {
-    font: size 10px;
-}
-
-h1, h2 {
-    display: inline;
-}
-
-p {
-    font-size: 90%;
-}
-
-.gradient {
-    font-size: 72px;
-    background: -webkit-linear-gradient(#bdbece, #edd6d2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.bottom {
-    bottom: 0;
-    position: absolute;
-}
-
-.sidebar {
-    background: #111213;
-    position:absolute;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    width: 250px;
+nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 0 1em;
   }
 
-.center {
-    text-align: center;
-}
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+  }
 
-.perfectcenter {
+  .perfectcenter {
     text-align: left;
     position: fixed;
     top: 50%;
@@ -53,16 +40,10 @@ p {
     transform: translate(-50%, -50%);
 }
 
-a {
-    color: white;
-    text-decoration: none;
+.flex {
+    display: flex;
 }
 
-a:hover {
-    color: rgb(0, 0, 0);
-    background-color: white;
+.center {
+    text-align: center;
 }
-
-/* FONT SETUP */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
