@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"><meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/057b0dec9d.js" crossorigin="anonymous"></script>
-    <script src="./detect.js"></script>
+    <!-- <script src="./detect.js"></script> -->
     <title>WillysunaDev - Home</title>
 </head>
 <div>
