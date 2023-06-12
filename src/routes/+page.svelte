@@ -1,29 +1,18 @@
-<script>
-  let year = new Date().getFullYear()
-  let timesinceyearistarted = year - 2017
-</script>
-<head>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/057b0dec9d.js" crossorigin="anonymous"></script>
-    <title>WillysunaDev - Home</title>
-</head>
-<div>
-      <nav class="fixed-top">
-        <ul>
-          <li>WillysunaDev</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="perfectcenter flex">
-        <img src="https://avatars.githubusercontent.com/u/78625911?v=4" alt="GitHub Profile Picture">
-        <div style="padding-left: 30px;">
-            I am a teenager who is passionate about programming.
-            I have been interested in computers and technology for a long time and I have been learning how to code (from myself, and from classes) since <em data-tooltip="{timesinceyearistarted} years ago">2017</em>.
-            I am always eager to learn more and is constantly exploring new programming languages and technologies.
-            I enjoy the challenge of working through coding and life's obstacles.
-        </div>
-      </div>
+<link href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<div class="container-window center">
+    <img src="https://avatars.githubusercontent.com/u/78625911?v=4" alt="Github Avatar" class="rounded">
+    <h1>Hello there!</h1>
+    <p>I am a teenager who is passionate about programming.
+        I have been interested in computers and technology for a long time.<br><br>
+        I am always eager to learn more and is constantly exploring new programming languages and technologies.<br><br>
+        I enjoy the challenge of working through coding and life's obstacles.<br>
+    </p>
+    <footer>
+        <a href="https://discord.gg/mDWenVHgHw"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://twitter.com/devthewilliam"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com/willysunadev"><i class="fa-brands fa-instagram"></i></a>
+        <a rel="me" href="https://wetdry.world/@willysuna"><i class="fa-brands fa-mastodon"></i></a>
+        <a href="https://youtube.com/willysuna"><i class="fa-brands fa-youtube"></i></a>
+    </footer>
 </div>

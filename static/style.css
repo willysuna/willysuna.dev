@@ -1,49 +1,38 @@
-:root {
-    --primary: #5351d6;
-    --primary-hover: #5465eb;
-    --primary-focus: rgba(46, 41, 210, 0.125)
-    --primary-inverse: #FFF;
+/* USES CATPUCCIN COLOR PALLETTE! https://github.com/catppuccin/catppuccin */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
+
+body {
+    background-color: #1e2030;
+    color: #cad3f5;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-nav {
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav ul li {
-    padding: 0 1em;
-  }
-
-  .fixed-top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1; 
-  }
-
-  .perfectcenter {
-    text-align: left;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+a {
+    color: #8aadf4;
 }
 
-.flex {
-    display: flex;
+a:hover {
+    color: #b7bdf8;
+}
+
+.rounded {
+    border-radius: 30%;
+}
+
+.container-window {
+    /* From asahilina.net */
+    min-width: 300px;
+	min-height: 200px;
+	border-radius: 0.8em;
+	margin: 1em;
+	padding: 1em;
+    background-color: #2e3148;
+    text-align: center;
 }
 
 .center {
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
