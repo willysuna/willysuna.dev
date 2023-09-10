@@ -1,0 +1,55 @@
+/* Uses Catpuccin colors sometimes https://github.com/catppuccin/catppuccin */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+    background: linear-gradient(135deg, rgba(32,38,57,1) 0%, rgba(31,37,56,1) 100%);
+    color: #cad3f5;
+    font-family: 'Inter', sans-serif;
+    padding-left: 5%;
+}
+
+a {
+    color: #8aadf4;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.rounded {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.container-window {
+    /* From asahilina.net */
+    min-width: 300px;
+	min-height: 200px;
+	border-radius: 0.8em;
+	margin: 1em;
+	padding: 1em;
+    background: #090c0e;
+    text-align: left;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-name-thingy {
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.project-box {
+    text-align: center;
+}
+
+.disp-flex {
+    display: flex;
+}
