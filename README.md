@@ -1,1 +1,1 @@
-willysuna.dev funny
+idk, just a (bad) personal website
