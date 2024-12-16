@@ -6,7 +6,7 @@
 	<div class="card" class:dark={$theme === 'dark'}>
 		<div class="image-container">
 			<img
-				src="https://github.com/willysuna/website/blob/main/get-your-free-tvs.gif?raw=true"
+				src="https://github.com/willysuna/willysuna.dev/blob/main/get-your-free-tvs.gif?raw=true"
 				alt="Profile"
 			/>
 		</div>
