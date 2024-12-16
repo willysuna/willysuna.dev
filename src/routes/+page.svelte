@@ -6,21 +6,21 @@
 	<div class="card" class:dark={$theme === 'dark'}>
 		<div class="image-container">
 			<img
-				src="https://github.com/willysuna/willysuna.dev/blob/main/get-your-free-tvs.gif?raw=true"
+				src="https://github.com/willysuna/willysuna.dev/blob/main/get-your-free-tvs.gif?raw=true	"
 				alt="Profile"
 			/>
 		</div>
 		<div class="content">
 			<div class="header">
 				<div class="name-container">
-					<h1><b>William</b></h1>
+					<h1><b class="glow">William</b></h1>
 					<span class="pronouns poppins-semibold">(he/they)</span>
 				</div>
 			</div>
 			<p class="bio">
 				Developer in development.
 				<br>
-				Learning <b>Rust</b> and <b>C++</b>
+				Learning <b class="text-red-400">Rust</b> and <b class="text-purple-400">C++</b>
 			</p>
 		</div>
 	</div>
@@ -95,9 +95,6 @@
 
 	.card.dark h1 {
 		color: #f3f4f6;
-		text-shadow: 0 0 10px rgba(243, 244, 246, 0.3),
-					 0 0 20px rgba(243, 244, 246, 0.2),
-					 0 0 30px rgba(243, 244, 246, 0.1);
 	}
 
 	.pronouns {
